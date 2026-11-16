@@ -1,0 +1,133 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Squishy World 🍏</title>
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f8fff0;
+  color: #294b32;
+}
+header {
+  background: linear-gradient(135deg,#d9f7a8,#9bd17b);
+  text-align: center;
+  padding: 45px 15px;
+}
+header h1 {
+  font-size: 45px;
+  margin: 10px;
+}
+nav {
+  background: #eff9df;
+  padding: 15px;
+  text-align: center;
+}
+nav a {
+  color: #477b3e;
+  margin: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+main {
+  max-width: 950px;
+  margin: auto;
+  padding: 20px;
+}
+h2 { color: #477b3e; }
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+  gap: 15px;
+}
+.card {
+  background: white;
+  border: 1px solid #e0efce;
+  border-radius: 20px;
+  padding: 15px;
+  text-align: center;
+}
+.card img {
+  width: 100%;
+  height: 160px;
+  object-fit: contain;
+  border-radius: 15px;
+  background: #effbdc;
+}
+footer {
+  background: #d9f1bd;
+  padding: 25px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>🍏 Squishy World 💚</h1>
+  <p>¡NeeDohs, dumplings y squishies virales!</p>
+</header>
+
+<nav>
+  <a href="#needoh">NeeDoh</a>
+  <a href="#dumplings">Dumplings</a>
+  <a href="#virales">Virales</a>
+</nav>
+
+<main>
+
+<section id="needoh">
+<h2>🟢 NeeDohs</h2>
+<div class="grid">
+
+<div class="card">
+<img src="https://schylling.com/wp-content/uploads/2024/01/ND-NiceCube-Blue-1.jpg" alt="Nice Cube">
+<h3>Nice Cube</h3>
+</div>
+
+<div class="card">
+<img src="https://schylling.com/wp-content/uploads/2024/01/ND-Gumdrop-1.jpg" alt="Gumdrop">
+<h3>Gumdrop</h3>
+</div>
+
+</div>
+</section>
+
+<section id="dumplings">
+<h2>🥟 Dumpling Squishies</h2>
+<div class="grid">
+
+<div class="card">
+<img src="https://squishy-dumpling.com/cdn/shop/files/dumpling-squishy-colors.jpg" alt="Dumpling">
+<h3>Dumpling Squishy</h3>
+</div>
+
+<div class="card">
+<img src="https://squishy-dumpling.com/cdn/shop/files/dumpling-squishy-colors-2.jpg" alt="Dumpling kawaii">
+<h3>Kawaii Dumpling</h3>
+</div>
+
+</div>
+</section>
+
+<section id="virales">
+<h2>⭐ Squishies virales</h2>
+<div class="grid">
+<div class="card">
+<img src="https://schylling.com/wp-content/uploads/2024/01/ND-NiceCube-Swirl-1.jpg" alt="Squishy colorido">
+<h3>Colorful Squishy</h3>
+</div>
+</div>
+</section>
+
+</main>
+
+<footer>
+💚 Squishy World · ¡Un mundo blandito! 🍏
+</footer>
+
+</body>
+</html>
